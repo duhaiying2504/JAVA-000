@@ -16,8 +16,8 @@ public class MyClassloader extends ClassLoader {
 	public static void main(String[] args) throws Exception {
 		
 		Class<?> Hello = new MyClassloader().findClass("Hello");
-		Method hello = Hello.getMethod("hello", new Class[]{});
-		hello.invoke(Hello.newInstance(), new Object[]{});
+		Method hello = Hello.getMethod("hello");
+		hello.invoke(Hello.newInstance());
 
 	}
 
