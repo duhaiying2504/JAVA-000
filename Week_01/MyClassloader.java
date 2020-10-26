@@ -35,24 +35,14 @@ public class MyClassloader extends ClassLoader {
 	private byte[] readClassBytes(String name) {
 
 		byte[] encodeBytes = null;
-		InputStream in = null;
-		try {
-			in = MyClassloader.class.getResource(name + ".xlass").openStream();
+		try (InputStream in =
+				MyClassloader.class.getResource(name + ".xlass").openStream()){
+			
 			encodeBytes = new byte[in.available()];
-
 			in.read(encodeBytes, 0, in.available());
-
 		} catch (IOException e) {
 			e.printStackTrace();
-		} finally {
-			if (in != null) {
-				try {
-					in.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
+		} 
 
 		return encodeBytes != null ? this.decode(encodeBytes) : null;
 	}
