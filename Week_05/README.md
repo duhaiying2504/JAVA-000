@@ -2,7 +2,7 @@
 
 ## 周六作业 4.（必做）给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
 
-1.starter: [https://github.com/duhaiying2504/java-training/tree/master/spring-boot-school-starter](spring-boot-school-starter)
+1.starter: <https://github.com/duhaiying2504/java-training/tree/master/spring-boot-school-starter>
 
 2.test for starter: [https://github.com/duhaiying2504/java-training/tree/master/school-starter-test](school-starter-test)
 
