@@ -7,10 +7,10 @@
 2.test for starter: [https://github.com/duhaiying2504/java-training/tree/master/school-starter-test](school-starter-test)
 
 ## 周六作业 6.（必做）研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法
-0. 完整项目：[https://github.com/duhaiying2504/java-training/tree/master/jdbcs](jdbcs)
-1. 最基础的实现： [https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/dao/JdbcBadDao.java](JdbcBadDao.java)
-2. 改进后的实现： [https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/dao/JdbcDao.java](JdbcDao.java)
-3. test:  [https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/service/SiteServiceTest.java](SiteServiceTest.java)
+0. 完整项目： [https://github.com/duhaiying2504/java-training/tree/master/jdbcs](jdbcs)
+1. 最基础的实现：[https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/dao/JdbcBadDao.java](JdbcBadDao.java)
+2. 改进后的实现：[https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/dao/JdbcDao.java](JdbcDao.java)
+3. test: [https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/service/SiteServiceTest.java](SiteServiceTest.java)
 
 
 ### 作业内容
