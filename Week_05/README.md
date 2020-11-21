@@ -1,5 +1,11 @@
 # 第5周作业
 
+## 周四作业 2.（必做）写代码实现 Spring Bean 的装配，方式越多越好（XML、Annotation 都可以）, 提交到 Github。
+
+1.Annotation: <https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/beans/SpringConfigrationTest.java>
+
+2.XML: <https://github.com/duhaiying2504/java-training/blob/master/jdbcs/src/main/java/indi/haiying/jdbcs/beans/SpringXmlTest.java>
+
 ## 周六作业 4.（必做）给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
 
 1.starter: <https://github.com/duhaiying2504/java-training/tree/master/spring-boot-school-starter>
@@ -80,7 +86,7 @@
 
 spring6大模块
 
-    常用模块    
+    常用模块 
     Integration -- 
     Languages:Kotlin/Groovy 混合语言编程 趋势？
     
